@@ -1,0 +1,25 @@
+{
+  "name": "me.bimut.testpkg",
+  "version": "3.7.7-alpha-omega-beta",
+  "description": "[<img width=\"134\" src=\"https://vk.com/images/apps/mini_apps/vk_mini_apps_logo.svg\">](https://vk.com/services)",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env PORT=10888 HTTPS=true react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "vk-miniapps-deploy"
+  },
+  "keywords": [],
+  "author": "bimut",
+  "license": "UNLICENSED",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bimut/test-repo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bimut/test-repo/issues"
+  },
+  "homepage": "https://github.com/bimut/test-repo#readme"
+}
