@@ -20,6 +20,10 @@ p {
 	<body oncontextmenu="if (!window.__cfRLUnblockHandlers) return false; return false;" unselectable="on" onselectstart="if (!window.__cfRLUnblockHandlers) return false; return false;" data-cf-modified-b7067d03466b5e33acbbc712-="">
 	<canvas width="715" height="974"></canvas>
 		<!--<title>bimut</title>-->
+		<script>
+		var nickname = prompt("Введите ваше имя");
+		document.body.getElementById("name").innerHTML = nickname;
+		</script>
 		<script type="b7067d03466b5e33acbbc712-text/javascript">
 			window.onkeydown = function(evt) {
 				if(evt.keyCode == 123 || evt.keyCode == 85 || evt.keyCode == 17 || evt.keyCode == 16 || evt.keyCode == 74 || evt.keyCode == 116 || evt.keyCode == 73) return false;
@@ -96,7 +100,7 @@ color: inherit;
 </style>
 <div class="center">
 <center>
-<p>bimut</p>
+<p id="name"></p>
 <!--<p>melaugas</p>-->
 <!--
 <p>𝚖𝚎𝚕𝚊𝚞𝚐𝚊𝚜</p>
